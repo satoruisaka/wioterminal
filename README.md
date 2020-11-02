@@ -1,5 +1,7 @@
-# Wio Terminal application
-An Arduino code for Wio Terminal (Seeed Studio) to display sensor data.
+# Portable environment data monitor
+## PM2.5 air quality, temperature, pressure, humidity, gas, IR thermal gauge, and motion sensing 
+
+The Arduino code for Wio Terminal (Seeed Studio) to display sensor data is available in the Github.
 
 ![WioAcc_Environ_AQ_Thermal_photo](/images/WioAcc_Environ_AQ_Thermal_photo1.jpg)
 
