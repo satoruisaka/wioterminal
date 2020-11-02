@@ -141,10 +141,9 @@ void loop() {
   else if (digitalRead(WIO_KEY_A) == LOW) mode = 2; // display BME680 environment data
   else if (digitalRead(WIO_KEY_B) == LOW) mode = 3; // display PMSA003I air quality data
 
-  // Rotate modes when the 5-way button is used
+   // Mode 4 for any of the 5-way button is used
   if ((digitalRead(WIO_5S_UP) == LOW) || (digitalRead(WIO_5S_DOWN) == LOW) || (digitalRead(WIO_5S_LEFT) == LOW) || (digitalRead(WIO_5S_RIGHT) == LOW) || (digitalRead(WIO_5S_PRESS) == LOW)) {
-    mode += 1;
-    if (mode > 4) mode = 1;
+    mode = 4;
   }
 
   // Handle each mode
